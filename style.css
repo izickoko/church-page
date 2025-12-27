@@ -1,7 +1,14 @@
+:root{
+   --primary-bg: #1f2937;
+  --light-bg: rgb(235, 223, 223);
+  --dark-text: #1f2937;
+  --light-text: #ffffff;
+  --accent-text: wheat; 
+}
 html {
   scroll-behavior: smooth;
 }body{
-    color: white;
+    color: var(--light-text);
     /* background-color:#1f2937 ; */
     font-family:'Times New Roman', Times, serif ;
     display: flex;
@@ -13,7 +20,7 @@ html {
 header{
     /* display: flex; */
     /* border: 2px solid ; */
-    background-color: #1f2937;
+    background-color: var(--primary-bg);
     padding: 8px;
     margin: 0;
 }
@@ -56,11 +63,11 @@ header img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(235, 223, 223);
+    background-color: var(--light-bg);
     border-radius: 30px;
     margin: 1px;
     padding: 50px;
-    color: #1f2937;
+    color: var(--dark-text);
     /* border: 2px solid blue; */
     text-align: center;
 }
@@ -74,27 +81,49 @@ header img{
 }
 .location,
 .Time{
-    color: aliceblue;
+    color: var(--light-text);
     padding: 10px 30px;
     margin-top: 45px;
-    background-color: #1f2937;
+    background-color: var(--primary-bg);
     border-radius: 30px;
 }
 .about-church{
     color: #1f2937;
     text-align: center;
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+.about-church p{
+    max-width: 700px;
+    margin: auto;
+}
+.mission{
+    color: var(--dark-text);
+    text-align: center;
+    padding: 0 20px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
 }
 .quotes{
-    color: #ffff;
+    color: var(--light-text);
     border: 2px solid red;
     text-align: center;
     padding: 20px 50px;
-    background-color: #1f2937;
+    background-color: var(--primary-bg);
     border-radius: 8px;
 }
 blockquote h3{
     font-size: 30px;
     /* font-family: ; */
+}
+.pastor{
+    color: var(--dark-text);
+}
+.pastor img{
+    heigh;
 }
 #contact{
     border: 2px solid green;
@@ -113,12 +142,13 @@ blockquote h3{
 #contact button{
     padding: 5px 10px;
     border-radius: 8px;
-    background: #1f2937;
+    background: var(--primary-bg);
     border: none;
+    color: var(--accent-text);
 }
 a{
     text-decoration: none;
-    color: wheat;
+    color: var(--accent-text);
 }
 
 /* .location p, */
@@ -126,45 +156,11 @@ a{
     /* border: 1px solid gray;  */
 /* } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     text-align: center;
-    background-color: #1f2937;
+    background-color: var(--primary-bg);
 }
 footer p{
     padding: 20px;
-    color: wheat;
+    color: var(--accent-text);
 }
