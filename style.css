@@ -111,9 +111,11 @@ header img{
     color: var(--light-text);
     border: 2px solid red;
     text-align: center;
-    padding: 20px 50px;
+    padding: 10px 50px;
     background-color: var(--primary-bg);
     border-radius: 8px;
+    display: flex;
+    align-items: center;
 }
 blockquote h3{
     font-size: 30px;
@@ -121,9 +123,23 @@ blockquote h3{
 }
 .pastor{
     color: var(--dark-text);
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding: 20px 20px;
+    /* flex-wrap: wrap; */
 }
 .pastor img{
-    heigh;
+    height: 400px;
+    width: 360px;
+    padding: 0 20px;
+    border-radius: 0px 100px 0 100px;
+}
+.pastor .bio{
+    display: flex;
+    align-items: flex-end;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #contact{
     border: 2px solid green;
