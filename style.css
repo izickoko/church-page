@@ -1,4 +1,6 @@
-body{
+html {
+  scroll-behavior: smooth;
+}body{
     color: white;
     /* background-color:#1f2937 ; */
     font-family:'Times New Roman', Times, serif ;
@@ -66,6 +68,18 @@ header img{
 /* .message-2{ */
     /* border: 2px solid blue; */
 /* } */
+#loc{
+    display: flex;
+    gap: 20px;
+}
+.location,
+.Time{
+    color: aliceblue;
+    padding: 10px 30px;
+    margin-top: 45px;
+    background-color: #1f2937;
+    border-radius: 30px;
+}
 .quotes{
     color: #ffff;
     border: 2px solid red;
@@ -87,29 +101,26 @@ blockquote h3{
 .socials{
     display: flex;
     /* justify-content: space-evenly; */
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     align-items: center;
-    gap: 10px;
-    padding: 0 10px;
+    gap: 15px;
+    /* padding: 0 10px; */
+}
+#contact button{
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: #1f2937;
+    border: none;
 }
 a{
     text-decoration: none;
+    color: wheat;
 }
-.location{
-    font-size: 15px;
-   border: 1px solid gray; 
-   color: #1f2937;
-   display: flex;
-   flex-direction: column;
-   padding: 0 10px;
-}
-h4,
-p{
+
+/* .location p, */
+/* .location h4{ */
     /* border: 1px solid gray;  */
-}
-#contact h4 {
-  border: 1px solid gray;  
-}
+/* } */
 
 
 
