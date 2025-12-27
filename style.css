@@ -80,6 +80,10 @@ header img{
     background-color: #1f2937;
     border-radius: 30px;
 }
+.about-church{
+    color: #1f2937;
+    text-align: center;
+}
 .quotes{
     color: #ffff;
     border: 2px solid red;
