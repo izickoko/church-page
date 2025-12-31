@@ -210,7 +210,56 @@ footer p{
   }
 
   .pastor img {
-    width: 360px;
-    height: 400px;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+  }
+  
+  .welcome {
+    padding: 30px 15px;
+  }
+  
+  .quotes {
+    padding: 10px 15px;
+  }
+  
+  blockquote h3 {
+    font-size: 20px;
+  }
+  
+  #loc {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 10px;
+  }
+  
+  .location,
+  .Time {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  header img {
+    width: 80px;
+  }
+  
+  .about ul {
+    font-size: 11px;
+    gap: 8px;
+    padding-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .welcome h1 {
+    font-size: 24px;
+  }
+  
+  .welcome h3 {
+    font-size: 16px;
+  }
+  
+  blockquote h3 {
+    font-size: 18px;
   }
 }
