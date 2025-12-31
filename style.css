@@ -19,7 +19,8 @@ body{
     overflow-x: hidden;
     color: var(--light-text);
     /* background-color:#1f2937 ; */
-    font-family:'Times New Roman', Times, serif ;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -83,6 +84,18 @@ header img{
     /* border: 2px solid blue; */
     text-align: center;
 }
+h1, h2, h3 {
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+.welcome h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.welcome h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
 /* .message-1, */
 /* .message-2, */
 /* .about-church, */
@@ -104,6 +117,7 @@ header img{
     /* margin-top: 45px; */
     background-color: var(--primary-bg);
     border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .about-church{
     color: #1f2937;
@@ -134,6 +148,7 @@ header img{
     border-radius: 8px;
     display: flex;
     align-items: center;
+    font-style: italic;
 }
 blockquote h3{
     font-size: 30px;
@@ -175,11 +190,16 @@ blockquote h3{
     /* padding: 0 10px; */
 }
 #contact button{
-    padding: 5px 10px;
+    padding: 12px 24px;
     border-radius: 8px;
     background: var(--primary-bg);
     border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
     color: var(--accent-text);
+}
+#contact button:hover {
+    background: #374151;
 }
 a{
     text-decoration: none;
