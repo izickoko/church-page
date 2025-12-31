@@ -7,7 +7,16 @@
 }
 html {
   scroll-behavior: smooth;
-}body{
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    overflow-x: hidden;
     color: var(--light-text);
     /* background-color:#1f2937 ; */
     font-family:'Times New Roman', Times, serif ;
@@ -55,8 +64,11 @@ header a{
     color: white;
 }
 header img{
-    height: 50px;
-    width: 150px;
+    height: auto;
+    max-width: 100%;
+    min-width: 50px;
+    flex-shrink: 0;
+    /* width: 150px; */
 }
 .welcome{
     display: flex;
@@ -68,15 +80,15 @@ header img{
     margin: 4px;
     padding: 50px;
     color: var(--dark-text);
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-align: center;
 }
-.message-1,
-.message-2,
-.about-church,
-.mission{
-    border: 2px solid blue;
-}
+/* .message-1, */
+/* .message-2, */
+/* .about-church, */
+/* .mission{ */
+    /* border: 2px solid blue; */
+/* } */
 #loc{
     display: flex;
     justify-content: center;
@@ -115,7 +127,7 @@ header img{
 }
 .quotes{
     color: var(--light-text);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     padding: 10px 50px;
     background-color: var(--primary-bg);
@@ -135,7 +147,7 @@ blockquote h3{
     margin: auto;
     padding: 60px 20px;
     background-color: #ffffff;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .pastor img{
     height: 400px;
@@ -149,7 +161,7 @@ blockquote h3{
     color: var(--dark-text);
 }
 #contact{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 15px;
     display: flex;
     justify-content: space-evenly;
