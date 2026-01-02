@@ -96,6 +96,10 @@ h1, h2, h3 {
     font-size: 1.2rem;
     font-weight: normal;
 }
+.welcome p {
+    text-align: center;
+    font-size: 20px;
+}
 /* .message-1, */
 /* .message-2, */
 /* .about-church, */
@@ -280,6 +284,10 @@ footer p{
   
   .welcome h3 {
     font-size: 16px;
+  }
+
+  .welcome p {
+    font-size: 18px;
   }
   
   blockquote h3 {
